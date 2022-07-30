@@ -80,7 +80,7 @@
         <h1 class="block text-2xl font-bold text-white sm:text-4xl">
           Comming soon
         </h1>
-        <p class="mt-3 text-lg text-gray-300">Qasim Nouh:v1 personal website</p>
+        <p class="mt-3 text-lg text-gray-300">Qasim Nouh:v0.1 personal website</p>
         <div
           class="mt-5 flex flex-col justify-center items-center gap-2 sm:flex-row sm:gap-3"
         >
