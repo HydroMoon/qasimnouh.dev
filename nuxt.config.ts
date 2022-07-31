@@ -8,10 +8,4 @@ export default defineNuxtConfig({
       postcssOptions: require("./postcss.config.js"),
     },
   },
-  script: [
-    {
-      src: "./node_modules/preline/dist/hs-ui.bundle.js",
-      body: true,
-    },
-  ],
 });
