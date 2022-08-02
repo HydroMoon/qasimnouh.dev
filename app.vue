@@ -1,5 +1,6 @@
 <template>
   <NuxtLayout>
+    <NuxtLoadingIndicator :height="2" />
     <template #nav>
       <nav
         class="w-full px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
@@ -52,7 +53,8 @@
           >
             <a
               class="font-medium text-gray-400 hover:text-gray-500"
-              href="#"
+              href="https://github.com/HydroMoon"
+              target="_blank"
               aria-current="page"
               >Github</a
             >
