@@ -1,20 +1,14 @@
 <template>
-  <div class="max-w-[50rem] flex flex-col mx-auto w-full min-h-screen">
-    <!-- ========== HEADER ========== -->
-    <header
-      class="mb-auto flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4"
-    >
+  <NuxtLayout>
+    <template #nav>
       <nav
         class="w-full px-4 sm:flex sm:items-center sm:justify-between sm:px-6 lg:px-8"
         aria-label="Global"
       >
         <div class="flex items-center justify-between">
-          <a
-            class="flex-none text-xl font-semibold text-white"
-            href="#"
-            aria-label="Brand"
-            >Qasim Nouh</a
-          >
+          <NuxtLink class="flex-none text-xl font-semibold text-white" to="/">
+            Qasim Nouh
+          </NuxtLink>
           <div class="sm:hidden">
             <button
               type="button"
@@ -65,78 +59,16 @@
             <a class="font-medium text-gray-400 hover:text-gray-500" href="#"
               >Portfolio</a
             >
-            <a class="font-medium text-gray-400 hover:text-gray-500" href="#"
-              >Blog</a
+            <NuxtLink
+              class="font-medium text-gray-400 hover:text-gray-500"
+              to="/about"
             >
+              About
+            </NuxtLink>
           </div>
         </div>
       </nav>
-    </header>
-    <!-- ========== END HEADER ========== -->
-
-    <!-- ========== MAIN CONTENT ========== -->
-    <main class="mb-auto" id="content" role="main">
-      <div class="text-center py-10 px-4 sm:px-6 lg:px-8">
-        <h1 class="block text-2xl font-bold text-white sm:text-4xl">
-          Comming soon
-        </h1>
-        <p class="mt-3 text-lg text-gray-300">Qasim Nouh <span class="text-gray-100">personal</span> website</p>
-        <div
-          class="mt-5 flex flex-col justify-center items-center gap-2 sm:flex-row sm:gap-3"
-        >
-          <a
-            class="w-full sm:w-auto inline-flex justify-center items-center gap-x-3.5 text-center bg-white shadow-sm text-sm font-medium rounded-md hover:text-blue-600 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-white transition py-3 px-4"
-            href="#"
-            target="_blank"
-          >
-            <svg
-              class="w-4 h-4"
-              xmlns="http://www.w3.org/2000/svg"
-              width="16"
-              height="16"
-              fill="currentColor"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
-              />
-            </svg>
-            Nothing
-          </a>
-          <a
-            class="w-full sm:w-auto inline-flex justify-center items-center gap-x-3.5 text-center border-2 border-gray-600 shadow-sm text-sm font-medium rounded-md text-gray-300 hover:text-white hover:border-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-800 transition py-3 px-4"
-            href="#"
-          >
-            <svg
-              class="w-2.5 h-2.5"
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-            >
-              <path
-                d="M11.2792 1.64001L5.63273 7.28646C5.43747 7.48172 5.43747 7.79831 5.63273 7.99357L11.2792 13.64"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-              />
-            </svg>
-            Here
-          </a>
-        </div>
-      </div>
-    </main>
-    <!-- ========== END MAIN CONTENT ========== -->
-  </div>
+    </template>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
-<script setup>
-useHead({
-  title: "Qasim Nouh",
-  viewport: "width=device-width, initial-scale=1, maximum-scale=1",
-  charset: "utf-8",
-  meta: [{ name: "description", content: "Qasim Nouh personel website" }],
-  bodyAttrs: {
-    class: "bg-slate-900 h-full",
-  },
-});
-</script>
