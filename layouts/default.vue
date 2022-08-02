@@ -7,6 +7,9 @@
       <slot name="nav"> Default nave content </slot>
     </header>
     <slot />
+    <footer class="flex justify-center pb-4 mt-4 sm:mt-0">
+      <span class="text-sm text-gray-200">Made with <span class="text-red-700">♥</span> by Qasim</span>
+    </footer>
   </div>
 </template>
 <script setup>
@@ -16,12 +19,6 @@ useHead({
   charset: "utf-8",
   meta: [{ name: "description", content: "Qasim Nouh personel website" }],
   link: [{ rel: "shorcut icon", href: "/favicon.ico" }],
-  link: [
-    {
-      rel: "stylesheet",
-      href: "https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css",
-    },
-  ],
   bodyAttrs: {
     class: "bg-slate-900 h-full font-[Helvetica]",
   },
