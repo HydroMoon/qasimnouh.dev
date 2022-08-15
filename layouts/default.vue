@@ -1,15 +1,17 @@
 <template>
-  <div class="max-w-[50rem] flex flex-col mx-auto w-full min-h-screen">
+  <div class="flex flex-col mx-auto w-full min-h-screen bg-gray-200 relative">
     <!-- ========== HEADER ========== -->
     <header
       class="mb-auto flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full text-sm py-4"
     >
-      <slot name="nav"> Default nave content </slot>
+      <slot name="nav"> Default nav content </slot>
     </header>
-    <slot />
-    <footer class="flex justify-center pb-4 mt-4 sm:mt-0">
-      <span class="text-sm text-gray-200"
-        >Made with <span class="text-red-700">♥</span> by Qasim</span
+    <div class="max-w-[70rem] mx-auto mb-auto w-full">
+      <slot> Default main content </slot>
+    </div>
+    <footer class="flex justify-center pb-4 sm:mt-0">
+      <a href="mailto:me@qasimnouh.dev" target="_blank" class="text-sm text-gray-700 hover:text-gray-900 mt-4"
+        >me@qasimnouh.dev</a
       >
     </footer>
   </div>
@@ -45,7 +47,7 @@ useHead({
     { rel: "manifest", href: "/site.webmanifest" },
   ],
   bodyAttrs: {
-    class: "bg-slate-900 h-full font-[Helvetica]",
+    class: "h-full font-[Helvetica]",
   },
 });
 </script>
