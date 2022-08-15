@@ -10,7 +10,7 @@
       <slot> Default main content </slot>
     </div>
     <footer class="flex justify-center pb-4 sm:mt-0">
-      <a href="mailto:me@qasimnouh.dev" target="_blank" class="text-sm text-gray-700 hover:text-gray-900 mt-4"
+      <a href="mailto:me@qasimnouh.com" target="_blank" class="text-sm text-gray-700 hover:text-gray-900 mt-4"
         >me@qasimnouh.com</a
       >
     </footer>
