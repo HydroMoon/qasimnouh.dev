@@ -58,7 +58,7 @@
               aria-current="page"
               >● GITHUB</a
             >
-            <a class="hover:text-gray-900" href="#">● PORTFOLIO</a>
+            <NuxtLink class="hover:text-gray-900" to="/blog">● BLOG</NuxtLink>
             <NuxtLink class="hover:text-gray-900" to="/about"
               >● ABOUT
             </NuxtLink>
