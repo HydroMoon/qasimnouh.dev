@@ -1,5 +1,5 @@
 FROM node:lts-alpine as stage
-
+LABEL build=builder_stage
 WORKDIR /data/app
 
 COPY package.json /data/app
