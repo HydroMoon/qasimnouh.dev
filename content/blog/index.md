@@ -1,5 +1,6 @@
 # Qasim Nouh tech blog
 
-All blog
+Soon it will be here...
 
-Nice it is working great [About](/about)
+[Home](/)\
+[About](/about)

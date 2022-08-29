@@ -10,11 +10,14 @@
           >
             Qasim Nouh.
           </h1>
-          <p class="mt-2 text-sm text-gray-500 md:text-base prose line-clamp-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
-            perferendis, sequi magni praesentium deleniti tempora illo
-            voluptatum labore sunt culpa maiores. Aliquam iste animi saepe
-            tempora molestiae fugit nostrum dolore.
+          <p class="mt-2 text-sm text-gray-500 md:text-base prose">
+            Welcome to my humble website, I am really enthusiastic about
+            technology in all ways. I choose Software Engineering by heart,
+            mainly developing using PHP (Laravel framework), VueJS and
+            TailwindCSS for the front-end side. Recently I got sucked into the
+            world of DevOps specifically Docker and CI/CD pipelines. As they
+            said you do not know how deep the rabbit hole goes until you fell on
+            it :P
           </p>
           <p class="mt-2 text-sm text-gray-400 md:text-base">
             Github Zen: {{ github_zen }}
