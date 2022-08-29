@@ -2,9 +2,7 @@ FROM node:lts-alpine as stage
 LABEL build=builder_stage
 WORKDIR /data/app
 
-COPY package.json /data/app
-COPY yarn.lock /data/app
-COPY .yarnrc.yml /data/app
+COPY package.json yarn.lock .yarnrc.yml /data/app/
 
 RUN yarn install \
   --prefer-offline \
