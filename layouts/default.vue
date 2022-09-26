@@ -10,7 +10,10 @@
       <slot> Default main content </slot>
     </div>
     <footer class="flex justify-center pb-4 sm:mt-0">
-      <a href="mailto:me@qasimnouh.com" target="_blank" class="text-sm text-gray-700 hover:text-gray-900 mt-4"
+      <a
+        href="mailto:me@qasimnouh.com"
+        target="_blank"
+        class="text-sm text-gray-700 hover:text-gray-900 mt-4"
         >me@qasimnouh.com</a
       >
     </footer>
@@ -45,6 +48,13 @@ useHead({
       href: "/favicon-16x16.png",
     },
     { rel: "manifest", href: "/site.webmanifest" },
+  ],
+  script: [
+    {
+      defer: true,
+      src: "https://analytics.qasimnouh.com/js/plausible.js",
+      "data-domain": "qasimnouh.com",
+    },
   ],
   bodyAttrs: {
     class: "h-full font-[Helvetica]",
