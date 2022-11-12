@@ -7,8 +7,9 @@
         aria-label="Global"
       >
         <div class="flex items-center justify-between">
-          <NuxtLink class="flex-none text-xl font-semibold" to="/">
+          <NuxtLink class="flex items-center space-x-2 font-medium text-xl" to="/">
             <img class="h-10" src="/android-chrome-512x512.png" alt="Icon" />
+            <span class="text-gray-700 hover:text-gray-900">Home</span>
           </NuxtLink>
           <div class="sm:hidden">
             <button
