@@ -44,10 +44,10 @@
 </template>
 <script setup>
 const stack = ref({
-  PHP: "php/php-original.svg",
-  VueJS: "vuejs/vuejs-original.svg",
-  TailWindCSS: "tailwindcss/tailwindcss-plain.svg",
+  PHP: 'php/php-original.svg',
+  VueJS: 'vuejs/vuejs-original.svg',
+  TailWindCSS: 'tailwindcss/tailwindcss-plain.svg',
 });
 
-const { data: github_zen } = await useFetch("https://api.github.com/zen");
+const { data: github_zen } = await useFetch('https://api.github.com/zen');
 </script>

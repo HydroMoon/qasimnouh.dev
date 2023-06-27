@@ -7,7 +7,10 @@
         aria-label="Global"
       >
         <div class="flex items-center justify-between">
-          <NuxtLink class="flex items-center space-x-2 font-medium text-xl" to="/">
+          <NuxtLink
+            class="flex items-center space-x-2 font-medium text-xl"
+            to="/"
+          >
             <img class="h-10" src="/android-chrome-512x512.png" alt="Icon" />
             <span class="text-gray-700 hover:text-gray-900">Home</span>
           </NuxtLink>
@@ -60,9 +63,7 @@
               >● GITHUB</a
             >
             <NuxtLink class="hover:text-gray-900" to="/blog">● BLOG</NuxtLink>
-            <NuxtLink class="hover:text-gray-900" to="/about"
-              >● ABOUT
-            </NuxtLink>
+            <!-- <NuxtLink class="hover:text-gray-900" to="/about">● ABOUT</NuxtLink> -->
           </div>
         </div>
       </nav>

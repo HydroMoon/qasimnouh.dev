@@ -8,6 +8,6 @@
 
 <script setup>
 definePageMeta({
-  layout: "blog",
+  layout: 'blog',
 });
 </script>
