@@ -4,17 +4,20 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "deploy": "nuxt generate && gh-pages --dotfiles -d .output/public"
   },
   "devDependencies": {
     "@nuxt/content": "^2.7.0",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@tailwindcss/typography": "^0.5.4",
+    "gh-pages": "^6.0.0",
     "nuxt": "^3.6.1",
     "nuxt-headlessui": "^1.0.2"
   },
   "dependencies": {
     "@heroicons/vue": "^2.0.13",
-    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e"
+    "@tailwindcss/nesting": "^0.0.0-insiders.565cd3e",
+    "@vueuse/nuxt": "^10.2.0"
   }
 }
