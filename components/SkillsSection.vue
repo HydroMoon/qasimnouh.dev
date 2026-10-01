@@ -1,7 +1,7 @@
 <template>
   <section id="skills" class="relative py-20 md:py-28">
     <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
-      <span v-reveal class="eyebrow">05 · Skills</span>
+      <span v-reveal class="eyebrow">06 · Skills</span>
       <h2 v-reveal="80" class="heading">The toolbox.</h2>
     </div>
 

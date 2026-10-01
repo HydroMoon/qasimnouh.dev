@@ -111,3 +111,55 @@ export const marquee = [
   'Laravel', 'PHP', 'Vue.js', 'Docker', 'Kubernetes', 'Redis', 'MySQL', 'Terraform', 'OpenTofu',
   'Ansible', 'Azure', 'Jenkins', 'Grafana', 'Prometheus', 'Proxmox', 'pfSense', 'WireGuard', 'C#', 'ASP.NET Core', 'Linux',
 ]
+
+export const solutions = [
+  {
+    title: 'REST APIs & Mobile Backends',
+    text: 'Versioned, documented APIs that power web front ends and iOS and Android apps, with token auth, validation and consistent error contracts.',
+    icon: 'code',
+    tags: ['Token auth', 'Redis caching', 'Queued jobs', 'Webhooks'],
+    featured: true,
+  },
+  {
+    title: 'Booking & Reservation Systems',
+    text: 'Scheduling engines for facilities, events and appointments, handling availability, capacity rules, cancellations and notifications.',
+    icon: 'calendar',
+    tags: ['Availability', 'Capacity rules', 'Notifications'],
+  },
+  {
+    title: 'Payments & Checkout',
+    text: 'Secure gateway integrations with webhook-driven reconciliation, refunds and real-time payment status.',
+    icon: 'card',
+    tags: ['Gateways', 'Webhooks', 'Refunds'],
+  },
+  {
+    title: 'Government Digital Services',
+    text: 'Public portals and e-services for ministries and national entities, built for security, Arabic/English content and high traffic.',
+    icon: 'building',
+    tags: ['Bilingual', 'Security', 'High traffic'],
+  },
+  {
+    title: 'Workflow & Approval Platforms',
+    text: 'Multi-step journeys with roles, approvals, notifications and audit trails, from application intake to final decision.',
+    icon: 'flow',
+    tags: ['Roles & permissions', 'Audit logs', 'PDF generation'],
+  },
+  {
+    title: 'Records & Archive Systems',
+    text: 'Document-heavy back offices with structured metadata, fast search and controlled access to large collections.',
+    icon: 'archive',
+    tags: ['Search', 'Media storage', 'Access control'],
+  },
+  {
+    title: 'CMS & Learning Platforms',
+    text: 'Content management and learning management systems for organizations and educational institutions.',
+    icon: 'book',
+    tags: ['CMS', 'LMS', 'Content workflows'],
+  },
+  {
+    title: 'Admin Dashboards & Reporting',
+    text: 'Back-office panels and real-time dashboards that give operations teams clear visibility into their data.',
+    icon: 'chart',
+    tags: ['Dashboards', 'Exports', 'Analytics'],
+  },
+]

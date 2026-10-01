@@ -1,7 +1,7 @@
 <template>
   <section id="expertise" class="section">
     <div class="max-w-2xl">
-      <span v-reveal class="eyebrow">03 · Expertise</span>
+      <span v-reveal class="eyebrow">04 · Expertise</span>
       <h2 v-reveal="80" class="heading">What I bring to a team.</h2>
       <p v-reveal="140" class="mt-5 text-lg text-slate-400">
         Full-cycle engineering, from data model and API design to the pipeline that ships it and the servers that run it.

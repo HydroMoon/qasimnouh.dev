@@ -73,6 +73,7 @@ import { profile } from '~/data/cv'
 const links = [
   { id: 'about', label: 'About' },
   { id: 'experience', label: 'Experience' },
+  { id: 'solutions', label: 'What I build' },
   { id: 'expertise', label: 'Expertise' },
   { id: 'infrastructure', label: 'Homelab' },
   { id: 'skills', label: 'Skills' },

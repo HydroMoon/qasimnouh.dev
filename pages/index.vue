@@ -3,6 +3,7 @@
     <HeroSection />
     <AboutSection />
     <ExperienceSection />
+    <SolutionsSection />
     <ExpertiseSection />
     <InfraSection />
     <SkillsSection />

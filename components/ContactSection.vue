@@ -4,7 +4,7 @@
       <div class="pointer-events-none absolute inset-0 bg-grid opacity-60" />
       <div class="pointer-events-none absolute left-1/2 top-0 h-64 w-[40rem] -translate-x-1/2 -translate-y-1/2 rounded-full bg-accent/20 blur-[100px]" />
 
-      <span class="eyebrow relative justify-center">06 · Contact</span>
+      <span class="eyebrow relative justify-center">07 · Contact</span>
       <h2 class="heading relative mx-auto max-w-3xl">
         Have a platform to build or a pipeline to <span class="text-gradient">speed up?</span>
       </h2>

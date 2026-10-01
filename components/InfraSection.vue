@@ -2,7 +2,7 @@
   <section id="infrastructure" class="section">
     <div class="grid items-center gap-14 lg:grid-cols-[1fr_1.2fr]">
       <div>
-        <span v-reveal class="eyebrow">04 · Homelab</span>
+        <span v-reveal class="eyebrow">05 · Homelab</span>
         <h2 v-reveal="80" class="heading">I run my own infrastructure.</h2>
         <p v-reveal="140" class="mt-5 text-lg leading-relaxed text-slate-400">
           Outside work I run a small production-style lab where I try out virtualization, orchestration and
