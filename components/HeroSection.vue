@@ -11,9 +11,8 @@
           {{ profile.location }}
         </div>
 
-        <h1 v-reveal="80" class="mt-6 font-display text-5xl font-bold leading-[1.02] tracking-tight text-white sm:text-6xl lg:text-7xl">
-          Gasim<br />
-          <span class="text-gradient">Nouh.</span>
+        <h1 v-reveal="80" class="mt-6 whitespace-nowrap font-display text-[2.6rem] font-bold leading-[1.05] tracking-tight text-white min-[400px]:text-5xl sm:text-6xl lg:text-7xl">
+          Gasim <span class="text-gradient">Nouh.</span>
         </h1>
 
         <p v-reveal="160" class="mt-6 font-mono text-sm text-slate-400 sm:text-base">
